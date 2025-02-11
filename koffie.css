@@ -61,6 +61,7 @@ body * {
 #buttonChoose {
 	width: 11em ;
 	grid-area: button ;
+	margin: auto ;
 	margin-top: 0 ;
 	padding: 2em 3em ;
 	background-color: #964B00 ;
