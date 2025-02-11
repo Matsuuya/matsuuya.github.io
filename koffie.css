@@ -63,6 +63,7 @@ body * {
 	grid-area: button ;
 	margin-top: 0 ;
 	padding: 2em 3em ;
+	color: wheat ;
 	background-color: #964B00 ;
 	border-color: #632600 ;
 	border-radius: 5em ;
