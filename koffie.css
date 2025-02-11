@@ -15,7 +15,7 @@ body {
 	grid-template-rows: .5fr 3fr .5fr .75fr .5fr;
 	background-image: url("https://us.123rf.com/450wm/glebdesign159/glebdesign1592406/glebdesign159240603865/230990145-seamless-pattern-with-coffee-cups-and-beans-vector-illustration.jpg?ver=6") ;
 	background-position: 0cm 0cm ;
-	animation: backPos 5s linear infinite;
+	animation: backPos 8s linear infinite;
 	
 }
 
@@ -59,9 +59,8 @@ body * {
 }
 
 #buttonChoose {
-	width: 11em ;
+	width: 10em ;
 	grid-area: button ;
-	margin: auto ;
 	margin-top: 0 ;
 	padding: 2em 3em ;
 	background-color: #964B00 ;
