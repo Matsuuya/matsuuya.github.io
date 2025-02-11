@@ -15,7 +15,7 @@ body {
 	grid-template-rows: .5fr 3fr .5fr .75fr .5fr;
 	background-image: url("https://us.123rf.com/450wm/glebdesign159/glebdesign1592406/glebdesign159240603865/230990145-seamless-pattern-with-coffee-cups-and-beans-vector-illustration.jpg?ver=6") ;
 	background-position: 0cm 0cm ;
-	animation: backPos 1s linear infinite;
+	animation: backPos 10s linear infinite;
 	
 }
 
