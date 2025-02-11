@@ -12,7 +12,7 @@ body {
 		". . ."
 		"footer footer footer";
 	grid-template-columns: 1fr 5fr 1fr;
-	grid-template-rows: .75fr 3fr .5fr .75fr .5fr;
+	grid-template-rows: .5fr 3fr .5fr .75fr .5fr;
 	background-image: url("https://us.123rf.com/450wm/glebdesign159/glebdesign1592406/glebdesign159240603865/230990145-seamless-pattern-with-coffee-cups-and-beans-vector-illustration.jpg?ver=6") ;
 	background-position: 0cm 0cm ;
 	animation: backPos 5s linear infinite;
@@ -39,16 +39,17 @@ body * {
 	width: 5em ;
 	max-width: 10em ;
 	background-color: #000000aa ;
-	padding: 3em 2em ;
 	margin-top: 0em ;
 	margin-bottom: 1em ;
+	padding: 0 1em ;
 	color: wheat ;
 	font-size: 3rem ;
 	border-radius: 1.25em ;
 	
 	#chosen {
-		height: 2em ;
+		height: 3em ;
 		margin: auto ;
+		padding: 3em 0em ;
 	}
 	
 }
