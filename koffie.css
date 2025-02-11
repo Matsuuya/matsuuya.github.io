@@ -63,12 +63,13 @@ body * {
 	grid-area: button ;
 	margin-top: 0 ;
 	padding: 2em 3em ;
-	color: wheat ;
-	background-color: #964B00 ;
+	color: black ;
+	background-color: #cdbea1 ;
 	border-color: #632600 ;
 	border-radius: 5em ;
 	box-shadow: 2px 2px 2px black ;
 	letter-spacing: .4rem;
+	font-size: 1.2rem ;
 }
 
 h1 {
