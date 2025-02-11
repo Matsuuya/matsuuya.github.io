@@ -59,7 +59,7 @@ body * {
 }
 
 #buttonChoose {
-	width: 10em ;
+	width: 11em ;
 	grid-area: button ;
 	margin-top: 0 ;
 	padding: 2em 3em ;
