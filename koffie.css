@@ -9,10 +9,10 @@ body {
 		"header header header"
 		". main ."
 		". button ."
-		". . ."
+		". list ."
 		"footer footer footer";
 	grid-template-columns: 1fr 5fr 1fr;
-	grid-template-rows: .5fr 3fr .5fr .75fr .5fr;
+	grid-template-rows: .25fr 2fr .25fr 2fr .5fr;
 	background-image: url("https://us.123rf.com/450wm/glebdesign159/glebdesign1592406/glebdesign159240603865/230990145-seamless-pattern-with-coffee-cups-and-beans-vector-illustration.jpg?ver=6") ;
 	background-position: 0cm 0cm ;
 	animation: backPos 10s linear infinite;
@@ -28,6 +28,16 @@ body {
 	}
 }
 
+#drinksList{
+	grid-area: list ;
+	margin: 2em auto ;
+	text-align: left ;
+	/*transform: scale(2) ;*/
+	font-size: 1.6rem ;
+	letter-spacing: .15em ;
+	
+}
+
 body * {
 	margin: 0 ;
 	margin-left: auto;
@@ -40,7 +50,7 @@ body * {
 	max-width: 10em ;
 	background-color: #000000aa ;
 	margin-top: 0em ;
-	margin-bottom: 1em ;
+	margin-bottom: .5em ;
 	padding: 0 1em ;
 	color: wheat ;
 	font-size: 3rem ;
@@ -72,9 +82,12 @@ body * {
 	font-size: 1.2rem ;
 }
 
-h1 {
+.coolText {
 	color: white ;
 	text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000 ;
+}
+
+h1 {
 	margin-bottom: .5em ;
 	text-decoration: underline;
 }
