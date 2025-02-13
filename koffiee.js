@@ -69,7 +69,7 @@ function reseto() {
 
 function doTheChoose() {
 	updateKoffies() ;
-	randomRoll = Math.ceil((Math.random() * 10) + 50 ) ;
+	randomRoll = Math.ceil((Math.random() * koffies.length) + 50 ) ;
 	reseto() ;
 	//roll = undefined ;
 	roll = setInterval(doRoll, 50) ;
