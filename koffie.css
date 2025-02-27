@@ -1,6 +1,21 @@
 
 header {
 	grid-area: header ;
+	
+	div {
+		margin: 0 ;
+		left: 1em ;
+		background-color: #000000aa ;
+		padding: 0 ;
+	}
+	
+	a {
+		display: flex ;
+		color: #ffffff ;
+		font-size: 1.2rem ;
+		padding: .5em ;
+		transform: translate(2000, 0) ;
+	}
 }
 
 body {
