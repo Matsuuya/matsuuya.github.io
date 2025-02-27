@@ -1,0 +1,17 @@
+{
+    "lang": "de-de",
+    "name": "Kaffee-Selektor",
+    "short_name": "Kaffee-Selektor!",
+    "description": "Wenn du dich nicht entscheiden kannst, welches getränk du willst, dann ist diese Webseite das richtige für dich!",
+    "start_url": "/",
+    "background_color": "#cdbea1",
+    "theme_color": "#cdbea1",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "https://cdn-icons-png.flaticon.com/128/2203/2203282.png",
+            "sizes": "128x128"
+        }
+    ]
+}
